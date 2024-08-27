@@ -1,0 +1,46 @@
+name: Setup Ruby and Build Jekyll
+
+on:
+  push:
+    branches:
+      - main  # Trigger workflow on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger workflow on pull requests to the main branch
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ruby-full build-essential zlib1g-dev
+
+    - name: Set up Ruby environment
+      run: |
+        echo '# Install Ruby Gems to ~/gems' >> $HOME/.bashrc
+        echo 'export GEM_HOME="$HOME/gems"' >> $HOME/.bashrc
+        echo 'export PATH="$HOME/gems/bin:$PATH"' >> $HOME/.bashrc
+        source $HOME/.bashrc
+        gem install jekyll bundler
+
+    - name: Build Jekyll site
+      run: |
+        source $HOME/.bashrc
+        jekyll build
+
+    - name: Deploy build to gh-pages branch
+      uses: crazy-max/ghaction-github-pages@v4
+      with:
+        target_branch: gh-pages
+        build_dir: _site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
