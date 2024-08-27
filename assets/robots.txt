@@ -1,0 +1,11 @@
+---
+permalink: /robots.txt
+# The robots rules
+---
+
+User-agent: *
+
+Disallow: /norobots/
+
+welcome to the cyber war where learning is fun and hacking is art
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
