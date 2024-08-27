@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /norobots/
+
+welcome to the cyber war where learning is fun and hacking is art
+Sitemap: https://blog.unthinkable.me/sitemap.xml
