@@ -1,12 +1,9 @@
-name: Setup Ruby and Build Jekyll
+name: Jekyll Build and Deploy
 
 on:
   push:
     branches:
-      - main # Trigger workflow on push to the main branch
-  pull_request:
-    branches:
-      - main # Trigger workflow on pull requests to the main branch
+      - main  # Change this to your default branch name if different
 
 permissions:
   contents: write
@@ -14,33 +11,28 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'  # You can specify the version you need
+    
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+        
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ruby-full build-essential zlib1g-dev
-
-      - name: Set up Ruby environment
-        run: |
-          echo '# Install Ruby Gems to ~/gems' >> $HOME/.bashrc
-          echo 'export GEM_HOME="$HOME/gems"' >> $HOME/.bashrc
-          echo 'export PATH="$HOME/gems/bin:$PATH"' >> $HOME/.bashrc
-          source $HOME/.bashrc
-          gem install jekyll bundler
-
-      - name: Build Jekyll site
-        run: |
-          source $HOME/.bashrc
-          jekyll build
-
-      - name: Deploy build to gh-pages branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: gh-pages
-          build_dir: _site
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v4
+      with:
+        build_dir: _site
+        publish_branch: gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
