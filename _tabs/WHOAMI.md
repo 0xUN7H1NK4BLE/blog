@@ -17,7 +17,7 @@ Known as `0xUN7H1NK4BLE`, a cybersecurity researcher, ethical hacker, and lifelo
 * `HexHimalaya CTF`: Secured second place in the HexHimalaya CTF, scoring the same as the first-place team.
 * `Pentester Nepal 2023`: Secure third place in Pentester Nepal 2023.
 
-### Interantional
+### International
 * `BugBase-CTF`: Winner, first place in BugBase CTF organized by BugBase India.
 * `Black Hat Final CTF`: Achieved 74th position in the Black Hat Final CTF in Riyadh, Saudi Arabia.
 * `RITSEC CTF 2024`: Achived 3rd poisition in prestigious RITSEC CTF 2024.
