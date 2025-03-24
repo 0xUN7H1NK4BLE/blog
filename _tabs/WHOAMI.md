@@ -39,10 +39,10 @@ Known as `0xUN7H1NK4BLE`, a cybersecurity researcher, ethical hacker, and lifelo
 
 | **Certification**                                     | **Issuing Organization** | **Issued** |
 |-------------------------------------------------------|--------------------------|------------|
-| `Certified AppSec Practitioner (CAP)`                   | The SecOps Group         | Jul 2024   |
-| `Certified Penetration Testing Specialist (CPTS)`        | Hack The Box             | Apr 2024   |
-| `ISO/IEC 27001 Information Security Associate™`          | SkillFront               | May 2023   |
-| `Blue Team Junior Analyst`                               | Security Blue Team       | Mar 2023   |
-| `Digital Forensics Essentials (DFE)`                      | EC-Council Learning      | Oct 2022   |
+| `[Certified AppSec Practitioner (CAP)](https://github.com/0xUN7H1NK4BLE/CERT/blob/main/AnishBhattarai-CertifiedAppSecPractitioner(CAP).pdf)`                   | The SecOps Group         | Jul 2024   |
+| `[Certified Penetration Testing Specialist (CPTS)](https://academy.hackthebox.com/achievement/badge/b7bd73ec-06de-11ef-b18d-bea50ffe6cb4)`        | Hack The Box             | Apr 2024   |
+| `[ISO/IEC 27001 Information Security Associate™](https://www.skillfront.com/Badges/36080505050639)`          | SkillFront               | May 2023   |
+| `[Blue Team Junior Analyst](https://github.com/0xUN7H1NK4BLE/CERT/blob/main/Blue%20Team%20Junior%20Analyst%20Pathway%20Bundle-btja.pdf)`                               | Security Blue Team       | Mar 2023   |
+| `[Digital Forensics Essentials (DFE)](https://codered.eccouncil.org/certificate/f451b6cf-c4a5-4e7f-936b-df9636e95c0e?logged=false)`                      | EC-Council Learning      | Oct 2022   |
 
 
