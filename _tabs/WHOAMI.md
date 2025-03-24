@@ -17,7 +17,7 @@ Known as `0xUN7H1NK4BLE`, a cybersecurity researcher, ethical hacker, and lifelo
 * `HexHimalaya CTF`: Secured second place in the HexHimalaya CTF, scoring the same as the first-place team.
 * `Pentester Nepal 2023`: Secure third place in Pentester Nepal 2023.
 
-### International
+### Int
 * `BugBase-CTF`: Winner, first place in BugBase CTF organized by BugBase India.
 * `Black Hat Final CTF`: Achieved 74th position in the Black Hat Final CTF in Riyadh, Saudi Arabia.
 * `RITSEC CTF 2024`: Achived 3rd poisition in prestigious RITSEC CTF 2024.
@@ -37,7 +37,16 @@ Known as `0xUN7H1NK4BLE`, a cybersecurity researcher, ethical hacker, and lifelo
 
 ## Certification
 
-| **Certification** | **Issuing Organization** | **Issued** |
+| **Certification**                                     | **Issuing Organization** | **Issued** |
+|-------------------------------------------------------|--------------------------|------------|
+| `Certified AppSec Practitioner (CAP)`                   | The SecOps Group         | Jul 2024   |
+| `Certified Penetration Testing Specialist (CPTS)`        | Hack The Box             | Apr 2024   |
+| `ISO/IEC 27001 Information Security Associate™`          | SkillFront               | May 2023   |
+| `Blue Team Junior Analyst`                               | Security Blue Team       | Mar 2023   |
+| `Digital Forensics Essentials (DFE)`                      | EC-Council Learning      | Oct 2022   |
+
+
+<!-- | **Certification** | **Issuing Organization** | **Issued** |
 |------------------|-------------------------|------------|
 | [Certified AppSec Practitioner (CAP)](https://github.com/0xUN7H1NK4BLE/CERT/blob/main/AnishBhattarai-CertifiedAppSecPractitioner(CAP).pdf) | The SecOps Group | Jul 2024 |
 | [Certified Penetration Testing Specialist (CPTS)](https://academy.hackthebox.com/achievement/badge/b7bd73ec-06de-11ef-b18d-bea50ffe6cb4) | Hack The Box | Apr 2024 |
@@ -45,3 +54,4 @@ Known as `0xUN7H1NK4BLE`, a cybersecurity researcher, ethical hacker, and lifelo
 | [Blue Team Junior Analyst](https://github.com/0xUN7H1NK4BLE/CERT/blob/main/Blue%20Team%20Junior%20Analyst%20Pathway%20Bundle-btja.pdf) | Security Blue Team | Mar 2023 |
 | [Digital Forensics Essentials (DFE)](https://codered.eccouncil.org/certificate/f451b6cf-c4a5-4e7f-936b-df9636e95c0e?logged=false) | EC-Council Learning | Oct 2022 |
 
+ -->
